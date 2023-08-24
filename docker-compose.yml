@@ -1,0 +1,9 @@
+services:
+    sftp:
+        image: scp-server
+        container_name: scp-server
+        volumes:
+            - "./:/scp-server"
+        ports:
+            - "2222:22"
+    
