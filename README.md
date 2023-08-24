@@ -13,6 +13,11 @@ Thanks to:
 https://github.com/alphabet5/anonymous-scp-docker
 
 
+Build with:
+```php
+docker build -t scp-server .
+```
+
 Run with:
 ```php
 docker-compose up
