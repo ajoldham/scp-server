@@ -9,6 +9,8 @@ RUN \
   mkdir /files && \
   adduser -D -H -u 1001 -h /files anonymous && \
   sudo passwd -d anonymous && \
+  adduser -D -H -u 1002 -h /files testuser && \
+  echo "testuser:mypassword" | chpasswd && \
   rm -rf \
     /tmp/*
 

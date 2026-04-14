@@ -4,7 +4,7 @@ AllowTcpForwarding no
 #ForceCommand internal-sftp
 GatewayPorts no
 X11Forwarding no
-AllowUsers anonymous
+AllowUsers anonymous testuser
 AuthorizedKeysFile    .ssh/authorized_keys
 ListenAddress 0.0.0.0:22
 PasswordAuthentication yes
